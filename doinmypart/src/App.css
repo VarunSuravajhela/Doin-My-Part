@@ -1,0 +1,10 @@
+.mainHeader {
+  display: flex;
+  border-style: none none solid none;
+  background-color: #ADD528;
+  justify-content: center;
+}
+
+body {
+  background-color: #04A4FC;
+}
