@@ -1,10 +1,55 @@
 .mainHeader {
   display: flex;
-  border-style: none none solid none;
   background-color: #ADD528;
   justify-content: center;
+  font-size: 5rem;
+  font-family: 'Spicy Rice', sans-serif;
+  color: #FFFF;
 }
-
+.envFact {
+  display: flex;
+  justify-content:center;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: black;
+  margin-bottom: 0;
+}
+.envFactBody {
+  margin-top: .25rem;
+  display: flex;
+  justify-content:center;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color:#ffff;
+}
+.itemEntry {
+  margin-left: .5rem;
+  display: flex;
+  justify-content:left;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color:#ffff;
+}
+.itemEntryTitle {
+  margin-left: .5rem;
+  display: flex;
+  justify-content:left;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  color:#ffff;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+.calcButton {
+  font-family: 'Spicy Rice', sans-serif;
+  background-color: #ADD528;
+}
 body {
   background-color: #04A4FC;
 }
