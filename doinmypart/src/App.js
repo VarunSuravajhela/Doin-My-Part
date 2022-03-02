@@ -1,6 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
 import "@fontsource/spicy-rice"
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
+
+export default function Router() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/results" element={<Result />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+function Result() {
+  return (
+    <div>
+      <header className='mainHeader'>Doin' My Part!</header>
+      <div className='resultsDiv'>
+        <h2 className='resultsH3'>Today, on this great day you helped </h2>
+        <h3 className='resultsH2'>Recycle 2 pounds of plastic waste which turned into</h3>
+        <div className="imgDiv">
+          <img src="https://lazyenvironmentalist.com/wp-content/uploads/Buoy-Bottle-Recycled-Ocean-Plastic-Reusable-Water-Bottle.jpg"></img>
+        </div>
+        <h1 className='resultsH1'>4 reusable water bottles!!!</h1>
+      </div>
+    </div>
+  );
+}
 
 function App() {
   return (
@@ -25,4 +52,3 @@ function App() {
   );
 }
 
-export default App;

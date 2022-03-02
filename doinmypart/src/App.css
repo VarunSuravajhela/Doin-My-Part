@@ -50,6 +50,43 @@
   font-family: 'Spicy Rice', sans-serif;
   background-color: #ADD528;
 }
+.resultsH2 {
+  display: flex;
+  justify-content:center;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 0;
+  
+}
+.resultsH1 {
+  display: flex;
+  justify-content:center;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 3.5rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 0;
+}
+.resultsH3 {
+  display: flex;
+  justify-content:center;
+  font-family: 'Spicy Rice', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: black;
+  margin-bottom: 0;
+}
 body {
   background-color: #04A4FC;
+}
+.imgDiv {
+  display: flex;
+  justify-content: center;
+}   
+img {  
+  width: 50%;
+  max-width: 400px;
+  height: auto;
 }
